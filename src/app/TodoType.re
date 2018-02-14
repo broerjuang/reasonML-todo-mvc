@@ -4,4 +4,7 @@ type todo = {
   completed: bool
 };
 
-type todos = list(todo);
+type show =
+  | Active
+  | All
+  | Completed;
